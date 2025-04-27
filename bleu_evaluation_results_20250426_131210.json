@@ -1,0 +1,62 @@
+{
+    "timestamp": "20250426_131210",
+    "num_responses": 11,
+    "average_bleu": 0.0823381056583951,
+    "detailed_results": [
+        {
+            "query": "What is Asthma?",
+            "bleu_score": 0.0,
+            "had_reference_answers": false
+        },
+        {
+            "query": "What is Asthma?",
+            "bleu_score": 0.3566412517588794,
+            "had_reference_answers": true
+        },
+        {
+            "query": "What are its symptoms?",
+            "bleu_score": 0.15574795582149467,
+            "had_reference_answers": true
+        },
+        {
+            "query": "What is Asthma?",
+            "bleu_score": 0.0,
+            "had_reference_answers": false
+        },
+        {
+            "query": "What drugs are used to overcome excessive Asthma attack?",
+            "bleu_score": 0.18662858840743804,
+            "had_reference_answers": true
+        },
+        {
+            "query": "What is Asthma?",
+            "bleu_score": 0.0,
+            "had_reference_answers": false
+        },
+        {
+            "query": "What are its symptoms?",
+            "bleu_score": 0.0,
+            "had_reference_answers": false
+        },
+        {
+            "query": "How frequent is the breathing issues?",
+            "bleu_score": 0.20670136625453397,
+            "had_reference_answers": true
+        },
+        {
+            "query": "What is Asthma?",
+            "bleu_score": 0.0,
+            "had_reference_answers": false
+        },
+        {
+            "query": "What are its symptoms?",
+            "bleu_score": 0.0,
+            "had_reference_answers": false
+        },
+        {
+            "query": "What drugs are used to overcome excessive Asthma attack?",
+            "bleu_score": 0.0,
+            "had_reference_answers": false
+        }
+    ]
+}

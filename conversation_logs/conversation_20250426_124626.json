@@ -1,0 +1,25 @@
+{
+    "timestamp": "2025-04-26T12:46:26.537705",
+    "user_query": "What are its symptoms?",
+    "bot_response": " Asthma symptoms can include:\n\n   1. Shortness of breath or difficulty breathing\n   2. Wheezing or whistling sounds when exhaling\n   3. Chest tightness or pain\n   4. Coughing, especially at night or early morning\n   5. Cold air or exercise-induced asthma symptoms\n\nIn some cases, you might also experience fatigue, headaches, and itching (although these are less common and could indicate other conditions). It's important to note that the symptoms can vary from person to person and may change over time due to triggers. If you suspect you have asthma, it is crucial to consult a healthcare professional for proper diagnosis and management.",
+    "index_used": "hybrid",
+    "vector_stores_available": [
+        "research_papers",
+        "guidelines",
+        "drug_info",
+        "hybrid"
+    ],
+    "conversation_history": [
+        {
+            "assistant": " Asthma is a common chronic inflammatory disease that affects around 300 million people worldwide. It can cause breathing difficulties and is often triggered by external factors such as allergens, viral infections, or pollutants. The symptoms can vary over time due to these triggers.\n\n   In some cases, the simple inhalation of cold and dry air can worsen asthma symptoms. This is because the protective functions of the nose may be compromised in people with asthma, leading to a decrease in FEV1 (a measure of lung function).\n\n   It's important to note that while cold air can sometimes help distinguish between asthma and other conditions, the distinction is becoming less clear.\n\n   Assessing the severity and control of asthma based on symptoms alone has limitations due to the complexity of the disease. A more comprehensive approach, considering multiple factors, is often necessary for proper management.\n\n   Asthma can have significant impacts on health, leading to numerous hospitalizations and emergency room visits. It also imposes indirect costs and is one of the leading causes of work absences.",
+            "user": "What is Asthma?"
+        }
+    ],
+    "evaluation_data": {
+        "reference_answers": [
+            " The symptoms of the disease mentioned in the document include:\n\n1. Abnormal blood test results on routine examination (indicating an underlying issue)\n2. Itching, caused by a buildup of bile in the skin\n3. Fatigue in the early stages of the disease\n4. Jaundice from the accumulation of bile later in the disease\n5. Specific nutritional deficiencies:\n   - Bruising due to vitamin K deficiency\n   - Bone pain due to vitamin D deficiency\n   - Night blindness (vision problems during nighttime) due to an unspecified cause, possibly also related to a nutritional deficiency.",
+            " The symptoms of this condition include:\n\n1. Redness and swelling of the mouth and tongue.\n2. Diarrhea.\n3. Skin rash, which may initially be light but becomes thickened, pigmented, and may slough off over time.\n4. Areas of skin prone to bacterial infection.\n5. Abdominal pain.\n6. Abnormal mental functioning, including memory loss.",
+            " The early symptoms of Polycythemia Vera (PV) may include headaches, ringing in the ears, fatigue, memory problems, difficulty breathing, giddiness or light-headedness, hypertension, visual problems, tingling or burning sensations in hands or feet, and itching (pruritus)."
+        ]
+    }
+}
