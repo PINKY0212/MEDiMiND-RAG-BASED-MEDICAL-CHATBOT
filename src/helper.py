@@ -89,7 +89,6 @@ def download_hugging_face_embeddings():
     embedding_model = HuggingFaceEmbeddings(
     model_name=EMBEDDING_MODEL_NAME,
     multi_process=True,
-    # model_kwargs={"device": "cuda"},
     model_kwargs={"device": "cuda"},
     encode_kwargs={"normalize_embeddings": True},  # Set True for cosine similarity
 )
