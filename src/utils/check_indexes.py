@@ -70,13 +70,13 @@ if __name__ == "__main__":
     # Initialize Pinecone
     pc = Pinecone(api_key=os.environ.get('PINECONE_API_KEY'))
     
-    # Define indexes to delete
-    # indexes_to_delete = ['medichatbot-drugs-info', 'medichatbot-guidelines']
+    # # Define indexes to delete 'medichatbot-research-papers', 'medichatbot-guidelines', 'medichatbot-drugs-info', 'medichatbot-hybrid'
+    # indexes_to_delete = [ 'medichatbot-drugs-info']
     
-    # Delete specific indexes
+    # # Delete specific indexes
     # print("\n=== Deleting Specific Indexes ===")
     # delete_specific_indexes(pc, indexes_to_delete)
     
     # Show remaining indexes after deletion
-    print("\n=== Remaining Indexes After Deletion ===")
+    print("\n=== Total Indexes in Pinecone ===")
     check_pinecone_indexes() 

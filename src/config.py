@@ -17,7 +17,7 @@ PINECONE_API_KEY = os.environ.get('PINECONE_API_KEY')
 os.environ['PINECONE_API_KEY'] = PINECONE_API_KEY
 
 # Flask configuration
-FLASK_SECRET_KEY = 'your-secret-key'
+FLASK_SECRET_KEY = '0dcab57e95992fc781d9ca78f4d26863'
 
 # Ollama configuration
 OLLAMA_CONFIG = {

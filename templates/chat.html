@@ -95,14 +95,13 @@
 					$("#text").val("");
 					$("#messageFormeight").append(userHtml);
 
-					// First, get the index name for the loading message
+					// First, get the index name for the loading message using POST
 					$.ajax({
-						url: "/get",
+						url: "/analyze",
 						type: "POST",
 						data: {
 							msg: rawText,
-							history: JSON.stringify(conversationHistory),
-							loading: "true"
+							history: JSON.stringify(conversationHistory)
 						},
 						success: function(loadingResponse) {
 							// Add loading message with typing indicator and index name
@@ -123,13 +122,14 @@
 							</div>`;
 							$("#messageFormeight").append(loadingHtml);
 
-							// Then get the actual response
+							// Then get the actual response using POST
 							$.ajax({
 								url: "/get",
 								type: "POST",
 								data: {
 									msg: rawText,
-									history: JSON.stringify(conversationHistory)
+									history: JSON.stringify(conversationHistory),
+									index_name: loadingResponse.index_name
 								},
 								success: function(response) {
 									// Remove loading message

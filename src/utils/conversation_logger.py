@@ -1,5 +1,7 @@
 import json
 import os
+import signal
+import sys
 from datetime import datetime
 from typing import Dict, List
 
@@ -18,6 +20,9 @@ class ConversationLogger:
         # Create log directory if it doesn't exist
         if not os.path.exists(log_dir):
             os.makedirs(log_dir)
+        
+        # Start a new conversation by default
+        self.start_new_conversation()
     
     def start_new_conversation(self, user_id: str = None):
         """
@@ -27,7 +32,9 @@ class ConversationLogger:
             user_id (str, optional): User identifier
         """
         self.current_conversation = []
-        self.conversation_id = f"{datetime.now().strftime('%Y%m%d_%H%M%S')}_{user_id if user_id else 'anonymous'}"
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        user_identifier = user_id if user_id else 'anonymous'
+        self.conversation_id = f"conv_{timestamp}_{user_identifier}"
     
     def log_interaction(self, user_message: str, bot_response: str, metadata: Dict = None):
         """
@@ -38,6 +45,10 @@ class ConversationLogger:
             bot_response (str): Bot's response
             metadata (Dict, optional): Additional metadata about the interaction
         """
+        # Ensure we have a conversation ID
+        if not self.conversation_id:
+            self.start_new_conversation()
+            
         interaction = {
             "timestamp": datetime.now().isoformat(),
             "user_message": user_message,
@@ -48,6 +59,8 @@ class ConversationLogger:
             interaction["metadata"] = metadata
             
         self.current_conversation.append(interaction)
+        # Save after each interaction to prevent data loss
+        self.save_conversation()
     
     def save_conversation(self, evaluation_data: Dict = None):
         """
@@ -58,6 +71,10 @@ class ConversationLogger:
         """
         if not self.current_conversation:
             return
+            
+        # Ensure we have a conversation ID
+        if not self.conversation_id:
+            self.start_new_conversation()
             
         conversation_data = {
             "conversation_id": self.conversation_id,
