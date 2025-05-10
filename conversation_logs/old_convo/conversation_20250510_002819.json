@@ -1,0 +1,25 @@
+{
+    "timestamp": "2025-05-10T00:28:19.607516",
+    "user_query": "What are the drug to prevent asthma?",
+    "bot_response": " Currently, there are several drugs used to manage asthma symptoms. These include inhalers containing corticosteroids, long-acting beta2-agonists, and combination inhalers that contain both. Additionally, leukotriene modifiers like montelukast (Singulair) can help prevent asthma attacks. However, it's important to note that while these drugs can control symptoms, there are currently no known cures or prevention methods for asthma. The pharmaceutical industry is actively researching new treatments, such as immune therapies and vaccines, but these are still in development. Always consult a healthcare professional for proper diagnosis and treatment.",
+    "index_used": "drug_info",
+    "vector_stores_available": [
+        "research_papers",
+        "guidelines",
+        "drug_info",
+        "hybrid"
+    ],
+    "conversation_history": [
+        {
+            "assistant": " Asthma is a common chronic disease that affects around 300 million people globally. It's characterized by inflammation in the airways, leading to symptoms like wheezing, shortness of breath, chest tightness, and coughing. These symptoms can be triggered by various factors such as allergens, viral infections, or pollutants. Asthma can worsen with exposure to cold, dry air. It's important to note that asthma severity isn't always accurately measured by symptoms alone due to the complexity of the disease. Treatment often involves controlling inflammation and managing triggers to prevent attacks.",
+            "user": "What is Asthma?"
+        },
+        {
+            "assistant": " Asthma symptoms include wheezing, shortness of breath, chest tightness, and coughing. These can be triggered by various factors like allergens, viral infections, or pollutants. Other symptoms may include fatigue, headaches, and itching (though this is less common). In severe cases, asthma might lead to jaundice due to nutritional deficiencies. It's important to note that symptoms can vary greatly among individuals. If you experience these symptoms, consult a healthcare professional for proper diagnosis and treatment.",
+            "user": "What are the symptoms of it?"
+        }
+    ],
+    "evaluation_data": {
+        "reference_answers": []
+    }
+}

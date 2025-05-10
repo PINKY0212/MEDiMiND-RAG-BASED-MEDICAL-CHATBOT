@@ -1,0 +1,22 @@
+{
+    "conversation_id": "conv_20250510_094203_anonymous",
+    "start_time": "2025-05-10T09:43:20.950359",
+    "end_time": "2025-05-10T09:43:20.950359",
+    "interactions": [
+        {
+            "timestamp": "2025-05-10T09:43:20.950359",
+            "user_message": "What is Asthma?",
+            "bot_response": "I apologize, but I encountered an error while processing your query. Please try again or rephrase your question.",
+            "metadata": {
+                "index_name": "hybrid,",
+                "response_time": 0.002000093460083008,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "conversation_id": "conv_20250510_095037_anonymous",
+    "start_time": "2025-05-10T09:53:03.354685",
+    "end_time": "2025-05-10T09:57:44.744271",
+    "interactions": [
+        {
+            "timestamp": "2025-05-10T09:53:03.354685",
+            "user_message": "What is Asthma?",
+            "bot_response": " Asthma is a condition that affects your airways, causing them to narrow and swell, leading to breathing difficulties. This can be triggered by various factors such as allergens, cold air, respiratory infections, stress, or certain substances in the workplace (occupational asthma). In some cases, there may be no identifiable triggers. Asthma can produce serious infections and, in severe cases, can even be fatal, especially for those with weakened immunity. It's important to note that asphyxia is a medical term for suffocation, which can be caused by various factors, some of which may also trigger asthma attacks.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 44.028401613235474,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-10T09:53:36.135129",
+            "user_message": "What are the symptoms of Asthma?",
+            "bot_response": "I apologize, but I encountered an error while processing your query. Please try again or rephrase your question.",
+            "metadata": {
+                "index_name": "hybrid,",
+                "response_time": 0.0010013580322265625,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-10T09:54:15.766925",
+            "user_message": "What are the symptoms of it?",
+            "bot_response": "I apologize, but I encountered an error while processing your query. Please try again or rephrase your question.",
+            "metadata": {
+                "index_name": "hybrid,",
+                "response_time": 0.0009961128234863281,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-10T09:57:05.526575",
+            "user_message": "What is Asthma?",
+            "bot_response": " Asthma is a condition that affects your airways, causing them to narrow and swell, leading to breathing difficulties. Symptoms can include wheezing, shortness of breath, chest tightness, and coughing. These symptoms can be triggered by various factors such as allergens, cold air, respiratory infections, stress, or certain substances at work (occupational asthma). In some cases, there may be no identifiable triggers. It's important to note that while asthma is generally treatable and controllable, it can produce serious infections and, in severe cases, can even be fatal, especially for those with weakened immunity.",
+            "metadata": {
+                "index_name": "research_papers",
+                "response_time": 48.931877851486206,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-10T09:57:44.744271",
+            "user_message": "What are the drugs used in its prevention?",
+            "bot_response": "I apologize, but I encountered an error while processing your query. Please try again or rephrase your question.",
+            "metadata": {
+                "index_name": "drug_info,",
+                "response_time": 0.0,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        }
+    ]
+}

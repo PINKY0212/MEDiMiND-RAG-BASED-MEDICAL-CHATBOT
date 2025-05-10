@@ -1,0 +1,21 @@
+{
+    "timestamp": "2025-05-10T09:22:16.000105",
+    "user_query": "What is a Plague?",
+    "bot_response": "I'm sorry, but I can only assist with medical-related queries. Please ask a question about health, medicine, or medical conditions.",
+    "index_used": "non_medical",
+    "vector_stores_available": [
+        "research_papers",
+        "guidelines",
+        "drug_info",
+        "hybrid"
+    ],
+    "conversation_history": [
+        {
+            "assistant": " Asthma is a chronic respiratory condition that causes breathing difficulties. It's characterized by narrowing and swelling of the airways, making it hard to breathe. This reaction can be triggered by various factors such as allergens, cold air, stress, or infections. In some cases, regular exposure to certain substances at work can lead to asthma (occupational asthma). Asthma can be serious and even life-threatening for people with weakened immune systems. If you suspect you have asthma, it's important to consult a healthcare professional.",
+            "user": "What is Asthma?"
+        }
+    ],
+    "evaluation_data": {
+        "reference_answers": []
+    }
+}

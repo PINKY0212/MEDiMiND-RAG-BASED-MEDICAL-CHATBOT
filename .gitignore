@@ -179,23 +179,15 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
 
 
 # Project virtual environment
 .venvmed/
 
-# JSON files
-*.json
+
 
 # Environment variables file
 .env
-
-*.json
-
-
-conversation_log/*.json
 
 
 

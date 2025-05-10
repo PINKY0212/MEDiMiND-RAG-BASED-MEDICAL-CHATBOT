@@ -1,0 +1,16 @@
+{
+    "timestamp": "2025-05-10T09:43:20.949360",
+    "user_query": "What is Asthma?",
+    "bot_response": "I apologize, but I encountered an error while processing your query. Please try again or rephrase your question.",
+    "index_used": "hybrid,",
+    "vector_stores_available": [
+        "research_papers",
+        "guidelines",
+        "drug_info",
+        "hybrid"
+    ],
+    "conversation_history": [],
+    "evaluation_data": {
+        "reference_answers": []
+    }
+}

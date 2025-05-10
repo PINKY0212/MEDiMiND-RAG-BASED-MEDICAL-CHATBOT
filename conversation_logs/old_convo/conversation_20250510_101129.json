@@ -1,0 +1,25 @@
+{
+    "timestamp": "2025-05-10T10:11:29.811071",
+    "user_query": "What are the symptoms of Cancer?",
+    "bot_response": " Cancer symptoms can vary depending on the type and location of the cancer. Common signs may include unexplained weight loss, fatigue, pain, and unusual lumps or swellings. Other symptoms could be coughing, breathlessness (dyspnea), jaundice (yellowing of skin and eyes), and changes in bowel or bladder habits. In advanced stages, cancer can cause complications like infection, respiratory failure, liver or kidney problems, intestinal blockage, seizures, coma, and central hypoventilation. If you suspect cancer, consult a healthcare professional immediately for proper diagnosis and treatment.",
+    "index_used": "hybrid",
+    "vector_stores_available": [
+        "research_papers",
+        "guidelines",
+        "drug_info",
+        "hybrid"
+    ],
+    "conversation_history": [
+        {
+            "assistant": " Asthma symptoms can range from mild breathlessness to severe respiratory failure. The main signs include wheezing, shortness of breath, dry cough, and a tightness in the chest. In a severe attack, breathing becomes increasingly difficult, leading to low oxygen levels. Asthma can be triggered by various factors such as allergens, cold air, exercise, or air pollution. It's important to note that asthma may produce serious infections in people with weakened immunity, especially those taking immunosuppressant drugs. If you suspect asthma, consult a healthcare professional for proper diagnosis and treatment.",
+            "user": "What are the symptoms of Asthma?"
+        },
+        {
+            "assistant": " Cancer is a group of diseases characterized by uncontrolled cell growth in body organs or tissues. It can develop in any organ, including the lungs, breasts, intestines, skin, stomach, pancreas, nasal sinuses, testes, ovaries, and more. Symptoms often include a lump or swelling, pain, and unusual weight loss. Diagnosis involves tests like biopsy and imaging scans. Treatment options vary but can include surgery, radiation therapy, chemotherapy, and immunotherapy. If you suspect cancer, consult a healthcare professional immediately for proper diagnosis and treatment.",
+            "user": "What is Cancer?"
+        }
+    ],
+    "evaluation_data": {
+        "reference_answers": []
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "conversation_id": "conv_20250510_100225_anonymous",
+    "start_time": "2025-05-10T10:05:06.459232",
+    "end_time": "2025-05-10T10:12:47.995489",
+    "interactions": [
+        {
+            "timestamp": "2025-05-10T10:05:06.459232",
+            "user_message": "What are the symptoms of Asthma?",
+            "bot_response": " Asthma symptoms can range from mild breathlessness to severe respiratory failure. The main signs include wheezing, shortness of breath, dry cough, and a tightness in the chest. In a severe attack, breathing becomes increasingly difficult, leading to low oxygen levels. Asthma can be triggered by various factors such as allergens, cold air, exercise, or air pollution. It's important to note that asthma may produce serious infections in people with weakened immunity, especially those taking immunosuppressant drugs. If you suspect asthma, consult a healthcare professional for proper diagnosis and treatment.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 97.988942861557,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-10T10:08:34.185211",
+            "user_message": "What is Cancer?",
+            "bot_response": " Cancer is a group of diseases characterized by uncontrolled cell growth in body organs or tissues. It can develop in any organ, including the lungs, breasts, intestines, skin, stomach, pancreas, nasal sinuses, testes, ovaries, and more. Symptoms often include a lump or swelling, pain, and unusual weight loss. Diagnosis involves tests like biopsy and imaging scans. Treatment options vary but can include surgery, radiation therapy, chemotherapy, and immunotherapy. If you suspect cancer, consult a healthcare professional immediately for proper diagnosis and treatment.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 40.84266138076782,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-10T10:11:29.811649",
+            "user_message": "What are the symptoms of Cancer?",
+            "bot_response": " Cancer symptoms can vary depending on the type and location of the cancer. Common signs may include unexplained weight loss, fatigue, pain, and unusual lumps or swellings. Other symptoms could be coughing, breathlessness (dyspnea), jaundice (yellowing of skin and eyes), and changes in bowel or bladder habits. In advanced stages, cancer can cause complications like infection, respiratory failure, liver or kidney problems, intestinal blockage, seizures, coma, and central hypoventilation. If you suspect cancer, consult a healthcare professional immediately for proper diagnosis and treatment.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 42.163010358810425,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-10T10:12:47.995489",
+            "user_message": "What are the drugs for it?",
+            "bot_response": " Drugs for cancer treatment can vary depending on the type and stage of cancer. They may include chemotherapy drugs like Doxorubicin (Adriamycin) or Cisplatin, targeted therapy drugs such as Trastuzumab (Herceptin), and immunotherapy drugs like Pembrolizumab (Keytruda). For mental health conditions like depression or anxiety often associated with cancer, drugs may include SSRIs (Prozac, Zoloft) or tricyclics (Elavil). Always consult a healthcare professional for proper diagnosis and treatment.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 43.30271506309509,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "timestamp": "2025-05-10T10:05:06.424742",
+    "user_query": "What are the symptoms of Asthma?",
+    "bot_response": " Asthma symptoms can range from mild breathlessness to severe respiratory failure. The main signs include wheezing, shortness of breath, dry cough, and a tightness in the chest. In a severe attack, breathing becomes increasingly difficult, leading to low oxygen levels. Asthma can be triggered by various factors such as allergens, cold air, exercise, or air pollution. It's important to note that asthma may produce serious infections in people with weakened immunity, especially those taking immunosuppressant drugs. If you suspect asthma, consult a healthcare professional for proper diagnosis and treatment.",
+    "index_used": "hybrid",
+    "vector_stores_available": [
+        "research_papers",
+        "guidelines",
+        "drug_info",
+        "hybrid"
+    ],
+    "conversation_history": [],
+    "evaluation_data": {
+        "reference_answers": []
+    }
+}

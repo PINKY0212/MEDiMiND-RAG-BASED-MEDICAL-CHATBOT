@@ -1,0 +1,16 @@
+{
+    "timestamp": "2025-05-10T09:53:03.354103",
+    "user_query": "What is Asthma?",
+    "bot_response": " Asthma is a condition that affects your airways, causing them to narrow and swell, leading to breathing difficulties. This can be triggered by various factors such as allergens, cold air, respiratory infections, stress, or certain substances in the workplace (occupational asthma). In some cases, there may be no identifiable triggers. Asthma can produce serious infections and, in severe cases, can even be fatal, especially for those with weakened immunity. It's important to note that asphyxia is a medical term for suffocation, which can be caused by various factors, some of which may also trigger asthma attacks.",
+    "index_used": "hybrid",
+    "vector_stores_available": [
+        "research_papers",
+        "guidelines",
+        "drug_info",
+        "hybrid"
+    ],
+    "conversation_history": [],
+    "evaluation_data": {
+        "reference_answers": []
+    }
+}

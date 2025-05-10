@@ -1,0 +1,25 @@
+{
+    "timestamp": "2025-05-10T09:25:49.821961",
+    "user_query": "What is Cancer?",
+    "bot_response": " Cancer is a group of diseases characterized by abnormal and uncontrolled growth of cells in body organs or tissues. It can develop in any tissue, but commonly affects major organs like lungs, breasts, intestines, skin, stomach, pancreas, nasal sinuses, testes, ovaries, lips, tongue, etc. Symptoms may include a firm, painless swelling of the affected area. Diagnosis often involves tests such as ultrasound scanning and measuring hormone levels in the body. Treatment usually involves anticancer drugs. If you suspect you have cancer, it's crucial to consult a healthcare professional immediately.",
+    "index_used": "hybrid",
+    "vector_stores_available": [
+        "research_papers",
+        "guidelines",
+        "drug_info",
+        "hybrid"
+    ],
+    "conversation_history": [
+        {
+            "assistant": " Asthma is a chronic respiratory condition that causes breathing difficulties. It's characterized by narrowing and swelling of the airways, making it hard to breathe. This reaction can be triggered by various factors such as allergens, cold air, stress, or infections. In some cases, regular exposure to certain substances at work can lead to asthma (occupational asthma). Asthma can be serious and even life-threatening for people with weakened immune systems. If you suspect you have asthma, it's important to consult a healthcare professional.",
+            "user": "What is Asthma?"
+        },
+        {
+            "assistant": "I'm sorry, but I can only assist with medical-related queries. Please ask a question about health, medicine, or medical conditions.",
+            "user": "What is a Plague?"
+        }
+    ],
+    "evaluation_data": {
+        "reference_answers": []
+    }
+}
