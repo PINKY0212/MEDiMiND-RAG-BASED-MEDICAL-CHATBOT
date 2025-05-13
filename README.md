@@ -1,14 +1,21 @@
-# **Medical Chatbot Using RAG**
+# **MediMind - Medical Chatbot Using RAG**
 
 ## **Introduction**
-This project is an advanced medical chatbot designed to assist users by answering medical-related queries using a robust retrieval-augmented generation (RAG) framework. The chatbot leverages the **Pinecone vector database** for efficient document retrieval, **Mistralai LLM** from Hugging Face for natural language generation, and **Gale Encyclopedia for Medicine** as the primary knowledge base. It provides accurate, contextual, and relevant answers to medical queries in real time.
+MediMind addresses the critical challenge of misinformation in medical AI by combining the fluency of large language models with the reliability of trusted clinical sources. Motivated by the risks of hallucinations in standalone LLMs, especially in healthcare, we aim to develop a Retrieval-Augmented Generation (RAG) based chatbot that delivers concise, accurate, and context-aware responses for asthma care. By leveraging semantic search, query rewriting, and Mistral 7B, our objective is to build a clinically safe and scalable medical assistant that empowers patients without replacing medical professionals.
+We aim to - 
+- Minimize hallucination and misinformation in AI responses
+- Maintain context-aware dialogue over multiple conversation turns
+- Improve patient comprehension using user-friendly language
+- Provide a scalable, modular architecture that can be extended to other medical domains
+
+This project is an advanced medical chatbot designed to assist users by answering medical-related queries using a robust retrieval-augmented generation (RAG) framework. The chatbot leverages the **Pinecone vector database** for efficient document retrieval, **Mistralai LLM** from Hugging Face for natural language generation, and **Research Papers, Arcticles, Books, Encyclopedia for Medicine** documents as the primary knowledge base. It provides accurate, contextual, and relevant answers to medical queries in real time.
 
 ## **Features**
-- **Interactive Chat Interface**: User-friendly chat interface built with HTML, Bootstrap, and jQuery
+- **Interactive Chat Interface**: User-friendly chat interface built with HTML, CSS
 - **Retrieval-Augmented Generation (RAG)**: Combines the power of document retrieval with generative AI for accurate responses
 - **Pinecone Vector Database**: Ensures fast and efficient similarity searches within the knowledge base
 - **Mistralai LLM**: A cutting-edge language model from Hugging Face
-- **Knowledge Base**: Uses the **Gale Encyclopedia for Medicine** to provide authoritative information
+- **Knowledge Base**: 30+ Research paper and articles, GINA and NHILBI Guidelines and Protocols, Drug Descriptions and side effects, 3 volumes of Gale Encyclopedia of Medicine, A-Z Family Medical Encyclopedia, Medical Books, Asthma-focused dataset - for meta-routing
 - **Conversation History**: Maintains conversation logs for context-aware responses
 - **Evaluation Framework**: Includes comprehensive evaluation metrics and results
 - **Modular Architecture**: Well-organized codebase with clear separation of concerns
@@ -108,11 +115,3 @@ Evaluation results are stored in the `evaluation_results/` directory.
 
 ## **Contributing**
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## **License**
-This project is licensed under the [MIT License](LICENSE).
-
-## **Acknowledgments**
-- Gale Encyclopedia for Medicine for the knowledge base
-- Hugging Face for the Mistralai LLM
-- Pinecone for vector database services 
