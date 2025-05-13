@@ -1,0 +1,16 @@
+{
+    "timestamp": "2025-05-12T23:51:52.447141",
+    "user_query": "What is Asthma?",
+    "bot_response": " Asthma is a condition that causes breathing difficulties due to narrowed airways in the lungs. It can be triggered by various factors such as allergens, cold or dry air, respiratory infections, stress, or certain substances in the workplace (occupational asthma). In some cases, it may start without identifiable triggers in adulthood. Asthma can produce serious infections in people with weakened immune systems, such as those taking immunosuppressant drugs. It's important to note that there are around 200 symptoms of asthma, and if left untreated, it can be potentially life-threatening.",
+    "index_used": "hybrid",
+    "vector_stores_available": [
+        "research_papers",
+        "guidelines",
+        "drug_info",
+        "hybrid"
+    ],
+    "conversation_history": [],
+    "evaluation_data": {
+        "reference_answers": []
+    }
+}

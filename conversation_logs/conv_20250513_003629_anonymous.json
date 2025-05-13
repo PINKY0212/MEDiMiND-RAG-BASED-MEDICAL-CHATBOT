@@ -1,0 +1,22 @@
+{
+    "conversation_id": "conv_20250513_003629_anonymous",
+    "start_time": "2025-05-13T00:39:08.700932",
+    "end_time": "2025-05-13T00:39:08.700932",
+    "interactions": [
+        {
+            "timestamp": "2025-05-13T00:39:08.700932",
+            "user_message": "What is Asthma?",
+            "bot_response": " Asthma is a condition that affects your airways, causing them to narrow and swell, leading to breathing difficulties. It can be triggered by various factors such as allergens, cold or dry air, respiratory infections, stress, or anxiety. In some cases, it may develop due to regular exposure to certain substances at work (occupational asthma). Asthma symptoms include wheezing, shortness of breath, chest tightness, and coughing. If left untreated, it can lead to serious, even fatal, infections in people with weakened immune systems.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 88.55717468261719,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        }
+    ]
+}

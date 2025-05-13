@@ -1,0 +1,67 @@
+{
+    "conversation_id": "conv_20250513_001616_anonymous",
+    "start_time": "2025-05-13T00:17:54.830693",
+    "end_time": "2025-05-13T00:30:04.375490",
+    "interactions": [
+        {
+            "timestamp": "2025-05-13T00:17:54.830693",
+            "user_message": "What is Asthma?",
+            "bot_response": " Asthma is a chronic respiratory condition that causes breathing difficulties due to narrowed airways. It can be triggered by various factors like allergens, cold air, stress, or infections. In some cases, regular exposure to certain substances at work (occupational asthma) may cause it. There are about 200 symptoms of asthma, and it can be serious or even fatal for people with weakened immunity. It's important to note that asthma doesn't always have identifiable allergic triggers when it starts in adulthood.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 37.427762508392334,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-13T00:19:33.387675",
+            "user_message": "What are the symptoms of it?",
+            "bot_response": " Asthma symptoms can include shortness of breath, wheezing, chest tightness, and coughing, especially at night or during exercise. Some people may experience these symptoms less frequently but still have asthma. It's important to note that while fever, weight loss, and skin issues are mentioned in the documents provided, they are not common symptoms of asthma unless there is a concurrent infection or other underlying condition. Always consult with a healthcare professional for accurate information regarding your specific health concerns.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 37.67837977409363,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-13T00:28:33.091218",
+            "user_message": "What are the drugs related to the symptoms?",
+            "bot_response": " For asthma symptoms, common medications include bronchodilators (reliever inhalers) like albuterol and ipratropium bromide, and corticosteroids (controller inhalers) such as budesonide and fluticasone. These help to open the airways and reduce inflammation. In some cases, leukotriene modifiers like montelukast may also be prescribed. Always consult with a healthcare professional for accurate information regarding your specific treatment plan.",
+            "metadata": {
+                "index_name": "drug_info",
+                "response_time": 90.60487961769104,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-13T00:30:04.375490",
+            "user_message": "What happens when two LLMs try to gaslight each other?",
+            "bot_response": "I'm sorry, but I can only assist with medical-related queries. Please ask a question about health, medicine, or medical conditions.",
+            "metadata": {
+                "index_name": "non_medical",
+                "response_time": 0.0,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        }
+    ]
+}

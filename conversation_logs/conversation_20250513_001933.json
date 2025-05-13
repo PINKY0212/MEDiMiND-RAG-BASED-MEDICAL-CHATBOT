@@ -1,0 +1,21 @@
+{
+    "timestamp": "2025-05-13T00:19:33.093134",
+    "user_query": "What are the symptoms of it?",
+    "bot_response": " Asthma symptoms can include shortness of breath, wheezing, chest tightness, and coughing, especially at night or during exercise. Some people may experience these symptoms less frequently but still have asthma. It's important to note that while fever, weight loss, and skin issues are mentioned in the documents provided, they are not common symptoms of asthma unless there is a concurrent infection or other underlying condition. Always consult with a healthcare professional for accurate information regarding your specific health concerns.",
+    "index_used": "hybrid",
+    "vector_stores_available": [
+        "research_papers",
+        "guidelines",
+        "drug_info",
+        "hybrid"
+    ],
+    "conversation_history": [
+        {
+            "assistant": " Asthma is a chronic respiratory condition that causes breathing difficulties due to narrowed airways. It can be triggered by various factors like allergens, cold air, stress, or infections. In some cases, regular exposure to certain substances at work (occupational asthma) may cause it. There are about 200 symptoms of asthma, and it can be serious or even fatal for people with weakened immunity. It's important to note that asthma doesn't always have identifiable allergic triggers when it starts in adulthood.",
+            "user": "What is Asthma?"
+        }
+    ],
+    "evaluation_data": {
+        "reference_answers": []
+    }
+}

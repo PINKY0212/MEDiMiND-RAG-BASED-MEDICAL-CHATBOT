@@ -1,0 +1,21 @@
+{
+    "timestamp": "2025-05-12T23:44:15.371198",
+    "user_query": "What is Asthma?",
+    "bot_response": " Asthma is a chronic respiratory condition that affects your airways, causing them to narrow and swell, leading to breathing difficulties. It can be triggered by various factors such as allergens, cold air, stress, or infections. In some cases, regular exposure to certain substances at work can cause asthma (occupational asthma). Asthma symptoms may include wheezing, shortness of breath, chest tightness, and coughing. It's important to note that asthma can be serious and even life-threatening in people with weakened immune systems or those taking immunosuppressant drugs. If you suspect you have asthma, consult a healthcare professional for proper diagnosis and treatment.",
+    "index_used": "hybrid",
+    "vector_stores_available": [
+        "research_papers",
+        "guidelines",
+        "drug_info",
+        "hybrid"
+    ],
+    "conversation_history": [
+        {
+            "assistant": "I apologize, but I encountered an error while processing your query. Please try again or rephrase your question.",
+            "user": "What is Asthma?"
+        }
+    ],
+    "evaluation_data": {
+        "reference_answers": []
+    }
+}

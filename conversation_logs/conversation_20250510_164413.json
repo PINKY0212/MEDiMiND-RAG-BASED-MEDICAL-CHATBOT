@@ -1,0 +1,16 @@
+{
+    "timestamp": "2025-05-10T16:44:13.644960",
+    "user_query": "What are the symptoms of cancer?",
+    "bot_response": " Cancer symptoms can vary greatly depending on the type and location of the tumor. However, common signs may include unexplained weight loss, lack of energy, and various problems like coughing or breathlessness (if cancer spreads to lungs), jaundice (if it affects the liver). Other symptoms could be pain, fatigue, insomnia, anorexia, shortness of breath, depression, anxiety, nausea, vomiting, and seizures in severe cases. As the disease progresses, complications like infection, respiratory failure, hepatic failure, renal failure, intestinal blockage, coma, and central hypoventilation may occur. It's important to consult a healthcare professional if you experience these symptoms for an accurate diagnosis and treatment.",
+    "index_used": "hybrid",
+    "vector_stores_available": [
+        "research_papers",
+        "guidelines",
+        "drug_info",
+        "hybrid"
+    ],
+    "conversation_history": [],
+    "evaluation_data": {
+        "reference_answers": []
+    }
+}

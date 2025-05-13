@@ -1,0 +1,37 @@
+{
+    "conversation_id": "conv_20250512_233607_anonymous",
+    "start_time": "2025-05-12T23:41:20.821486",
+    "end_time": "2025-05-12T23:44:15.373325",
+    "interactions": [
+        {
+            "timestamp": "2025-05-12T23:41:20.821486",
+            "user_message": "What is Asthma?",
+            "bot_response": "I apologize, but I encountered an error while processing your query. Please try again or rephrase your question.",
+            "metadata": {
+                "index_name": "hybrid,",
+                "response_time": 0.001001119613647461,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-12T23:44:15.373325",
+            "user_message": "What is Asthma?",
+            "bot_response": " Asthma is a chronic respiratory condition that affects your airways, causing them to narrow and swell, leading to breathing difficulties. It can be triggered by various factors such as allergens, cold air, stress, or infections. In some cases, regular exposure to certain substances at work can cause asthma (occupational asthma). Asthma symptoms may include wheezing, shortness of breath, chest tightness, and coughing. It's important to note that asthma can be serious and even life-threatening in people with weakened immune systems or those taking immunosuppressant drugs. If you suspect you have asthma, consult a healthcare professional for proper diagnosis and treatment.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 94.57984805107117,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        }
+    ]
+}

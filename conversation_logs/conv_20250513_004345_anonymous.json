@@ -1,0 +1,82 @@
+{
+    "conversation_id": "conv_20250513_004345_anonymous",
+    "start_time": "2025-05-13T00:46:03.917694",
+    "end_time": "2025-05-13T01:02:38.198672",
+    "interactions": [
+        {
+            "timestamp": "2025-05-13T00:46:03.917694",
+            "user_message": "What is Asthma?",
+            "bot_response": " Asthma is a chronic respiratory condition that affects your airways. It causes them to narrow and swell, leading to breathing difficulties. This reaction can be triggered by various factors such as allergens, cold air, stress, or infections. In some cases, regular exposure to certain substances at work may cause asthma (occupational asthma). Asthma can produce serious infections, especially in people with weakened immune systems. It's important to note that there are about 200 symptoms of asthma, and it can be fatal if not managed properly.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 90.61373090744019,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-13T00:47:04.508934",
+            "user_message": "What are the symptoms of it?",
+            "bot_response": " Asthma symptoms can include shortness of breath, wheezing, chest tightness, and coughing, especially at night or during exercise. Other symptoms may include fatigue, a feeling of anxiety, and a weakened immune system which makes you more susceptible to infections. If you experience these symptoms persistently, it's important to consult a healthcare professional for proper diagnosis and treatment.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 35.5007266998291,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-13T00:49:22.159785",
+            "user_message": "What is a Plague?",
+            "bot_response": "I'm sorry, but I can only assist with medical-related queries. Please ask a question about health, medicine, or medical conditions.",
+            "metadata": {
+                "index_name": "non_medical",
+                "response_time": 0.29851722717285156,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-13T00:53:25.693145",
+            "user_message": "What is Plague?",
+            "bot_response": " Plague is a severe, potentially life-threatening infectious disease, historically known for causing pandemics. It's usually transmitted to humans by fleas on rodents and can take three forms: bubonic, septicemic, and pneumonic. Bubonic plague causes swollen lymph nodes, while pneumonic plague affects the lungs and can be spread person-to-person through cough droplets. Septicemic plague, which doesn't involve lymph glands, is particularly dangerous as it can be hard to diagnose. Symptoms include fever, chills, abdominal pain, shock, and bleeding into the skin and organs. If you suspect you have been exposed, seek medical help immediately.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 49.17520999908447,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-13T01:02:38.198672",
+            "user_message": "What is Asthma?",
+            "bot_response": " Asthma is a chronic respiratory condition that affects your airways. It causes them to narrow, leading to breathing difficulties. This can be triggered by various factors such as allergens, cold air, stress, or infections. In some cases, regular exposure to certain substances at work may cause asthma (occupational asthma). Asthma can produce serious infections in people with weakened immunity. It's important to note that when asthma starts in adulthood, there are often no identifiable allergic triggers. If you suspect you have asthma, consult a healthcare professional for proper diagnosis and treatment.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 89.87166810035706,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        }
+    ]
+}

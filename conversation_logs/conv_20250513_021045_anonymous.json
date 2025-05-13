@@ -1,0 +1,22 @@
+{
+    "conversation_id": "conv_20250513_021045_anonymous",
+    "start_time": "2025-05-13T02:13:39.558318",
+    "end_time": "2025-05-13T02:13:39.558318",
+    "interactions": [
+        {
+            "timestamp": "2025-05-13T02:13:39.558318",
+            "user_message": "What is Asthma?",
+            "bot_response": " Asthma is a condition that causes breathing difficulties due to narrowed airways. It can start at any age, sometimes triggered by allergens or respiratory infections, stress, or anxiety. In adults, asthma may not have identifiable allergic triggers. Regular exposure to certain substances at work can also lead to asthma, known as occupational asthma. There are about 200 symptoms of asthma, and it can be serious or even fatal in people with weakened immune systems. It's important to note that the exact cause of asthma isn't always clear.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 84.71487998962402,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        }
+    ]
+}

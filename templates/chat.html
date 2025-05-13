@@ -95,6 +95,24 @@
 					$("#text").val("");
 					$("#messageFormeight").append(userHtml);
 
+					// Show analyzing message immediately
+					var loadingHtml = `<div class="d-flex justify-content-start mb-4">
+						<div class="img_cont_msg">
+							<img src="https://cdn-icons-png.flaticon.com/512/387/387569.png" class="rounded-circle user_img_msg">
+						</div>
+						<div class="msg_cotainer">
+							<div class="typing-indicator">
+								<div class="dots">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+								<div class="loading-text">Analyzing the query...</div>
+							</div>
+						</div>
+					</div>`;
+					$("#messageFormeight").append(loadingHtml);
+
 					// First, get the index name for the loading message using POST
 					$.ajax({
 						url: "/analyze",
@@ -104,23 +122,8 @@
 							history: JSON.stringify(conversationHistory)
 						},
 						success: function(loadingResponse) {
-							// Add loading message with typing indicator and index name
-							var loadingHtml = `<div class="d-flex justify-content-start mb-4">
-								<div class="img_cont_msg">
-									<img src="https://cdn-icons-png.flaticon.com/512/387/387569.png" class="rounded-circle user_img_msg">
-								</div>
-								<div class="msg_cotainer">
-									<div class="typing-indicator">
-										<div class="dots">
-											<span></span>
-											<span></span>
-											<span></span>
-										</div>
-										<div class="loading-text">Searching in ${loadingResponse.index_name}...</div>
-									</div>
-								</div>
-							</div>`;
-							$("#messageFormeight").append(loadingHtml);
+							// Update loading message to show searching in index
+							$(".loading-text").text(`Searching in ${loadingResponse.index_name}...`);
 
 							// Then get the actual response using POST
 							$.ajax({

@@ -1,0 +1,52 @@
+{
+    "conversation_id": "conv_20250512_234930_anonymous",
+    "start_time": "2025-05-12T23:51:52.449766",
+    "end_time": "2025-05-13T00:09:59.405243",
+    "interactions": [
+        {
+            "timestamp": "2025-05-12T23:51:52.449766",
+            "user_message": "What is Asthma?",
+            "bot_response": " Asthma is a condition that causes breathing difficulties due to narrowed airways in the lungs. It can be triggered by various factors such as allergens, cold or dry air, respiratory infections, stress, or certain substances in the workplace (occupational asthma). In some cases, it may start without identifiable triggers in adulthood. Asthma can produce serious infections in people with weakened immune systems, such as those taking immunosuppressant drugs. It's important to note that there are around 200 symptoms of asthma, and if left untreated, it can be potentially life-threatening.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 82.56619238853455,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-12T23:54:41.716104",
+            "user_message": "What are the symptoms of it?",
+            "bot_response": "I apologize, but I encountered an error while processing your query. Please try again or rephrase your question.",
+            "metadata": {
+                "index_name": "hybrid,",
+                "response_time": 0.0010449886322021484,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        },
+        {
+            "timestamp": "2025-05-13T00:09:59.405243",
+            "user_message": "What are the symptoms of it?",
+            "bot_response": " Asthma symptoms can include shortness of breath, wheezing, chest tightness, and coughing, especially at night or after exercise. Some people may also experience fatigue, a rapid heartbeat, or difficulty sleeping due to these symptoms. If you're experiencing any of these and it's persistent, it's important to consult a healthcare professional for proper diagnosis and treatment.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 88.08354234695435,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        }
+    ]
+}

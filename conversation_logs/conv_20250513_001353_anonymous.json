@@ -1,0 +1,22 @@
+{
+    "conversation_id": "conv_20250513_001353_anonymous",
+    "start_time": "2025-05-13T00:15:32.186483",
+    "end_time": "2025-05-13T00:15:32.186483",
+    "interactions": [
+        {
+            "timestamp": "2025-05-13T00:15:32.186483",
+            "user_message": "What is Asthma?",
+            "bot_response": " Asthma is a chronic respiratory condition that affects your airways. It causes them to narrow, leading to breathing difficulties. This can be triggered by various factors such as allergens, cold air, stress, or infections. In some cases, regular exposure to certain substances at work may cause asthma (occupational asthma). Asthma can produce serious infections in people with weakened immune systems. It's important to note that there are about 200 symptoms of asthma, and it can be fatal for those with reduced immunity or taking certain medications.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 39.46894073486328,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        }
+    ]
+}

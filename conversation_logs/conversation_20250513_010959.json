@@ -1,0 +1,21 @@
+{
+    "timestamp": "2025-05-13T01:09:59.959084",
+    "user_query": "What are the symptoms of it?",
+    "bot_response": " Asthma symptoms often include shortness of breath, wheezing, chest tightness, and coughing, especially at night or during exercise. These symptoms can vary from person to person and may worsen over time. In some cases, asthma attacks can be severe and require immediate medical attention. If you experience these symptoms, it's important to consult a healthcare professional for proper diagnosis and treatment.",
+    "index_used": "hybrid",
+    "vector_stores_available": [
+        "research_papers",
+        "guidelines",
+        "drug_info",
+        "hybrid"
+    ],
+    "conversation_history": [
+        {
+            "assistant": " Asthma is a chronic respiratory condition that affects your airways. It causes them to narrow, leading to breathing difficulties. This can be triggered by various factors such as allergens, cold air, stress, or infections. In some cases, regular exposure to certain substances at work may cause asthma (occupational asthma). Asthma can produce serious infections in people with weakened immunity. It's important to note that when asthma starts in adulthood, there are often no identifiable allergic triggers. If you suspect you have asthma, consult a healthcare professional for proper diagnosis and treatment.",
+            "user": "What is Asthma?"
+        }
+    ],
+    "evaluation_data": {
+        "reference_answers": []
+    }
+}

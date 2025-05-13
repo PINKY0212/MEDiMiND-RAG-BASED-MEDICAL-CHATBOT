@@ -1,0 +1,22 @@
+{
+    "conversation_id": "conv_20250513_010410_anonymous",
+    "start_time": "2025-05-13T01:09:59.963706",
+    "end_time": "2025-05-13T01:09:59.963706",
+    "interactions": [
+        {
+            "timestamp": "2025-05-13T01:09:59.963706",
+            "user_message": "What are the symptoms of it?",
+            "bot_response": " Asthma symptoms often include shortness of breath, wheezing, chest tightness, and coughing, especially at night or during exercise. These symptoms can vary from person to person and may worsen over time. In some cases, asthma attacks can be severe and require immediate medical attention. If you experience these symptoms, it's important to consult a healthcare professional for proper diagnosis and treatment.",
+            "metadata": {
+                "index_name": "hybrid",
+                "response_time": 92.66739177703857,
+                "vector_stores": [
+                    "research_papers",
+                    "guidelines",
+                    "drug_info",
+                    "hybrid"
+                ]
+            }
+        }
+    ]
+}

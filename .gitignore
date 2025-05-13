@@ -190,4 +190,7 @@ Thumbs.db
 .env
 
 
+conversation_logs/*.jsonl
+
+
 
