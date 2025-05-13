@@ -84,9 +84,6 @@ def analyze_medical_query(query: str, history: List[Dict] = None) -> tuple[bool,
     is_asthma = "ASTHMA: YES" in response.upper()
     index_name = "non_medical"
 
-    print(f"\nUser's query: {query}\n")
-    print(f"Response from LLM after analysis: \n{response}")
-    print(f"History in Analyze_Medical_Query: {history_text}\n\n")
     
     if is_medical:
         if is_asthma:
@@ -95,24 +92,18 @@ def analyze_medical_query(query: str, history: List[Dict] = None) -> tuple[bool,
             if category_line:
                 # Extract just the category name without any additional description
                 category_text = category_line[0].split("CATEGORY:")[1].strip().lower()
-                # Take only the first word (the category name) and remove any parentheses or additional text
-                category = category_text.split()[0].split('(')[0]
-                # Only allow specific medical indices for asthma
-                # if category in ['research_papers', 'guidelines', 'drug_info']:
-                #     index_name = category
-                # else:
-                #     index_name = 'hybrid'
+                # Take only the first word (the category name) and remove any parentheses, commas, or additional text
+                category = category_text.split()[0].split('(')[0].rstrip(',')
                 index_name = category
         else:
             # For non-asthma medical queries, use hybrid
             index_name = 'hybrid'
-
-        print(f"Response from LLM after analysis: {response}")
-        print(f"user's query: {query}")
-        print(f"Is Medical: {is_medical}")
-        print(f"Index Name: {index_name}")
-        print(f"Is Asthma: {is_asthma}")
-        print(f"History in Analyze_Medical_Query: {history}\n\n")
+    
+    print(f"\nUser's query: {query}\n")
+    print(f"Response from LLM after analysis: \n {response} \n\n\n")
+    print(f"Is Medical: {is_medical}")
+    print(f"Is Asthma: {is_asthma}")
+    print(f"Index Name: {index_name}")
     
     return is_medical, index_name, is_asthma
 
@@ -193,7 +184,7 @@ def get_relevant_content(query: str, index_name: str, vector_stores: Dict, histo
                     history_text += f"User: {turn['user']}\n"
                     history_text += f"Assistant: {turn['assistant']}\n"
         
-        print(f"History here in Get_Relevant_Content : \n {history_text}")
+        # print(f"History here in Get_Relevant_Content : \n {history_text}")
         
         # Create prompt for processing the documents
         prompt = f"""

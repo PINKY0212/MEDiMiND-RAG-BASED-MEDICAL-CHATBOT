@@ -69,6 +69,7 @@ if __name__ == "__main__":
     
     # Initialize Pinecone
     pc = Pinecone(api_key=os.environ.get('PINECONE_API_KEY'))
+    print("Pinecone API key - ", pc)
     
     # # Define indexes to delete 'medichatbot-research-papers', 'medichatbot-guidelines', 'medichatbot-drugs-info', 'medichatbot-hybrid'
     # indexes_to_delete = [ 'medichatbot-drugs-info']

@@ -1,0 +1,15 @@
+{
+    "timestamp": "2024-03-19T10:00:00.000000",
+    "user_query": "What is Asthma?",
+    "rag_output": "Asthma is a chronic respiratory condition that affects your airways. It causes them to narrow, leading to breathing difficulties. This can be triggered by various factors such as allergens, cold air, stress, or infections. In some cases, regular exposure to certain substances at work may cause asthma (occupational asthma). Asthma can produce serious infections in people with weakened immunity. It's important to note that when asthma starts in adulthood, there are often no identifiable allergic triggers. If you suspect you have asthma, consult a healthcare professional for proper diagnosis and treatment.",
+    "reference_answer": "Asthma is a chronic respiratory condition where the airways become inflamed, narrow, and produce extra mucus, making breathing difficult. Common symptoms include wheezing, coughing, chest tightness, and shortness of breath. Asthma can be triggered by allergens, exercise, cold air, or stress. It varies in severity and may be managed with medications like inhalers, lifestyle adjustments, and avoiding triggers. While there is no cure, proper treatment can help control symptoms and improve quality of life.",
+    "metadata": {
+        "index_used": "hybrid",
+        "vector_stores_available": [
+            "research_papers",
+            "guidelines",
+            "drug_info",
+            "hybrid"
+        ]
+    }
+}

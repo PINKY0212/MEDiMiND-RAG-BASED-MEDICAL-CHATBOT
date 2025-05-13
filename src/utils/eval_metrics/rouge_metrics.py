@@ -36,7 +36,8 @@ class RougeMetrics:
         rougeL_scores = []
         
         for pred, ref in zip(predictions, references):
-            scores = self.scorer.score(ref, pred)
+            # Note: rouge_scorer.score takes (reference, prediction) as arguments
+            scores = self.scorer.score(pred, ref)  # Changed order: prediction first, then reference
             rouge1_scores.append(scores['rouge1'])
             rougeL_scores.append(scores['rougeL'])
             
