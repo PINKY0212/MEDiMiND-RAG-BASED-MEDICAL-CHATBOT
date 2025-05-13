@@ -37,7 +37,7 @@ This project is an advanced medical chatbot designed to assist users by answerin
 - **Backend**:
   - Python (Flask Framework)
   - Pinecone Vector Database
-  - Hugging Face's Mistralai LLM
+  - Hugging Face's Mistral LLM (In this project Mistral-7B quantized has been used)
   - LangChain for RAG implementation
 - **Frontend**:
   - HTML5, CSS3 (Bootstrap Framework)
@@ -49,7 +49,7 @@ This project is an advanced medical chatbot designed to assist users by answerin
 
 ### Prerequisites
 Ensure you have the following installed:
-- Python 3.10 or later
+- Python 3.12 or later
 - pip (Python package manager)
 - Pinecone API key
 - Hugging Face API key
@@ -99,10 +99,10 @@ Ensure you have the following installed:
    ```
 
 ## **Usage**
-1. Open your web browser and navigate to `http://localhost:5000`
+1. Open your web browser and navigate to `http://localhost:8080`
 2. Type your medical query in the chat interface
 3. The chatbot will process your query and provide a relevant response
-4. Conversation history is maintained for context-aware responses
+4. Conversation history is maintained for context-aware responses (Till 3 epochs)
 
 ## **Evaluation**
 The project includes a comprehensive evaluation framework that assesses:
@@ -112,6 +112,4 @@ The project includes a comprehensive evaluation framework that assesses:
 - System performance metrics
 
 Evaluation results are stored in the `evaluation_results/` directory.
-
-## **Contributing**
-Contributions are welcome! Please feel free to submit a Pull Request.
+Conversation logs are stored in the `conversation_logs/` directory.
